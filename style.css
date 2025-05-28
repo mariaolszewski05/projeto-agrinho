@@ -1,1 +1,140 @@
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f0f8ff;
+  color: #333;
+}
 
+header {
+  background-color: #4CAF50;
+  padding: 20px;
+  text-align: center;
+  color: white;
+}
+
+nav ul {
+  list-style: none;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+main {
+  padding: 20px;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  text-align: center;
+  padding: 10px;
+  position: fixed;
+  width: 100%;
+  bottom: 0;
+}
+/* Estilo geral do corpo da página */
+body {
+  font-family: Arial, sans-serif; /* Fonte limpa e legível */
+  margin: 0; /* Remove margens padrão */
+  padding: 0; /* Remove espaçamento padrão */
+  background-color: #e0f7fa; /* Cor de fundo suave, lembrando natureza */
+  color: #333; /* Cor do texto padrão */
+  line-height: 1.6; /* Espaçamento entre linhas para melhor leitura */
+}
+
+/* Cabeçalho do site */
+header {
+  background-color: #4CAF50; /* Verde que remete à natureza */
+  padding: 20px; /* Espaçamento interno */
+  text-align: center; /* Centraliza o texto */
+  color: white; /* Cor do texto */
+  box-shadow: 0 4px 6px rgba(0,0,0,0.1); /* Sombra suave para destaque */
+}
+
+/* Navegação do menu */
+nav ul {
+  list-style: none; /* Remove marcadores */
+  padding: 0;
+  margin: 0;
+  display: flex; /* Exibe os itens em linha */
+  justify-content: center; /* Centraliza os itens */
+  background-color: #81d4fa; /* Cor de fundo do menu */
+}
+
+nav ul li {
+  margin: 0 15px; /* Espaçamento entre os itens */
+}
+
+nav ul li a {
+  color: #fff; /* Cor dos links */
+  text-decoration: none; /* Remove sublinhado */
+  font-weight: bold; /* Deixa os textos em negrito */
+  padding: 10px 15px; /* Espaçamento interno dos links */
+  border-radius: 4px; /* Cantos arredondados */
+  transition: background-color 0.3s; /* Animação suave ao passar o mouse */
+}
+
+nav ul li a:hover {
+  background-color: #0288d1; /* Cor ao passar o mouse */
+}
+
+/* Conteúdo principal */
+main {
+  padding: 20px;
+  max-width: 1000px; /* Limita a largura para melhor leitura */
+  margin: auto; /* Centraliza na página */
+}
+
+/* Seções do conteúdo */
+section {
+  background-color: #ffffff; /* Fundo branco para destaque */
+  margin-bottom: 20px; /* Espaçamento entre seções */
+  padding: 20px;
+  border-radius: 8px; /* Cantos arredondados */
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1); /* Sombra suave */
+}
+
+/* Títulos das seções */
+h2 {
+  color: #2e7d32; /* Verde escuro */
+  margin-top: 0;
+}
+
+/* Parágrafos */
+p {
+  font-size: 1.1em;
+}
+
+/* Links internos ou botões */
+a.btn {
+  display: inline-block;
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  margin-top: 10px;
+  border-radius: 4px;
+  text-decoration: none;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+a.btn:hover {
+  background-color: #388e3c;
+}
+
+/* Rodapé */
+footer {
+  background-color: #333;
+  color: #fff;
+  text-align: center;
+  padding: 15px 10px 
